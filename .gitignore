@@ -1,0 +1,6 @@
+program/*/tmp/*
+__pycache__
+**/.obsidian
+**/.tmp*
+mkdocs/scripts/reorder_dic.py
+reordered_dic.txt
