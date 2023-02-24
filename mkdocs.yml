@@ -12,26 +12,27 @@ copyright: 'Copyright &copy; 2023 KRAI'
 # Navigation Page
 nav:
   - Home:
-    - 'Begin': Home.md
-    - 'Docker Setup': DockerSetup.md
-    - 'AEDK Setup': AEDKSetup.md
-    - 'Benchmarking': QuickBenchmarking.md
-    - "Benchmark playground": Cmdgengen.md
-    - "Dev Run Benchmark": minisections/run_benchmarking.md
+    - Begin: Home.md
+    - Docker Setup: setup/DockerSetup.md
+    - AEDK Setup: setup/AEDKSetup.md
+    - CK: utils/QuickCKGuide.md
   - Setups Details:
-    - 'Docker Installation': docker/DockerInstall.md
-    - 'Docker Setup Dependency Diagram': docker/DockerDiagram.md
-    - 'Edge Applicances Setup Details': EdgeAppliances.md
-  - CK:
-    - 'Learn CK': QuickCKGuide.md
-  - SUT:
-    - 'SUT Info': DeviceInfo.md
-    - 'Diff Device': benchmark/Benchmarking_diff_devs.md
-    - "Miscellaneous useful commands": UsefulCommands.md
-  - Result:
-    - 'v1.1': Result-v1.1.md
-    - 'v2.0': Result-v2.0.md
-  - 'License': License.md
+    - Docker Installation: setup/DockerInstall.md
+    - Docker Setup Dependency Diagram: setup/DockerDiagram.md
+    - Edge Applicances Setup Details: setup/EdgeAppliances.md
+  - Benchmark:
+    - Benchmarking: benchmark/QuickBenchmarking.md
+    - Benchmark playground: benchmark/Cmdgengen.md
+    - Dev Run Benchmark: benchmark/run_benchmarking.md
+  - Devices:
+    - SUT Info: submission/DeviceInfo.md
+    - Diff Device: benchmark/Benchmarking_diff_devs.md
+  - Miscellaneous useful commands: utils/UsefulCommands.md
+  - Results:
+    - 'v1.1': results/Result-v1.1.md
+    - 'v2.0': results/Result-v2.0.md
+    - 'v3.0': results/Result-v3.0.md
+  - License: License.md
 
 # JavaScript for Intercom Widget
 extra_javascript:
@@ -76,13 +77,13 @@ theme:
   features:
     - navigation.instant
     - navigation.tracking
-    - navigation.tabs.sticky
-    - navigation.indexes
-    - navigation.top
+    # - navigation.tabs.sticky
+    # - navigation.indexes
+    # - navigation.top
     - content.tabs.link
-    - navigation.sections
-    - toc.follow
-    - toc.integrate 
+    # - navigation.sections
+    # - toc.follow
+    # - toc.integrate 
   favicon: assets/favicon.png
   icon:
     logo: material/rocket
